@@ -579,7 +579,7 @@ ul.sub-menu {
 #home-slider .slider-sun {
   position: absolute;
   right: 250px;
-  bottom: 200px;
+  bottom: 0px;
 }
 
 .animate-in .slider-sun {
@@ -601,7 +601,7 @@ ul.sub-menu {
 #home-slider .slider-birds2 {
   position: absolute;
   right: -75px;
-  bottom: -50px;
+  bottom: 0px;
 }
 
 .animate-in .slider-birds2 {
