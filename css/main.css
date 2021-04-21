@@ -579,7 +579,7 @@ ul.sub-menu {
 #home-slider .slider-sun {
   position: absolute;
   right: 250px;
-  bottom: -50px;
+  bottom: 200px;
 }
 
 .animate-in .slider-sun {
