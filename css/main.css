@@ -533,7 +533,7 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 #home-slider {
-  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
+  background: url(../images/banner/0.jpg) 0 25% repeat-x;
   position: relative;
 }
 
