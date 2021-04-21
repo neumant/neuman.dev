@@ -600,8 +600,8 @@ ul.sub-menu {
 
 #home-slider .slider-birds2 {
   position: absolute;
-  right: 5px;
-  bottom: 150px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .animate-in .slider-birds2 {
