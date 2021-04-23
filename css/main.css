@@ -394,8 +394,8 @@ ul.sub-menu {
 }
 
 #footer h1{
-  margin-bottom: 15px;
-  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 #footer .bottom-separator {
@@ -403,13 +403,13 @@ ul.sub-menu {
 }
 
 #message {
-  height: 50px;
+  height: 0px;
   resize: none;
 }
 
 .bottom > h2 {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .bottom .media-body h3 {
@@ -472,8 +472,8 @@ ul.sub-menu {
 }
 
 .bottom > address {
-  line-height: 22px;
-  margin-bottom: 40px;
+  line-height: 0px;
+  margin-bottom: 0px;
 }
 
 .form-control {
