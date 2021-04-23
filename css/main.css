@@ -386,11 +386,11 @@ ul.sub-menu {
 **************************/
 
 #footer {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   background-image: url(../images/home/footer.png);
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-position: bottom;
-  background-size: contain;
+  background-size: initial;
 }
 
 #footer h1{
