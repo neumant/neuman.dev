@@ -394,12 +394,12 @@ ul.sub-menu {
 }
 
 #footer h1{
-  margin-bottom: 65px;
-  margin-top: 36px;
+  margin-bottom: 45px;
+  margin-top: 16px;
 }
 
 #footer .bottom-separator {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 #message {
@@ -409,7 +409,7 @@ ul.sub-menu {
 
 .bottom > h2 {
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 16px;
 }
 
 .bottom .media-body h3 {
