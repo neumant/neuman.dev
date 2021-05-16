@@ -27,6 +27,24 @@
     <script src="js/min/waypoints.min.js"></script>
     <script src="js/jquery.counterup.js"></script>
 
+    function SmoothVerticalScrolling(e, time, where) {
+      var eTop = e.getBoundingClientRect().top;
+      var eAmt = eTop / 100;
+      var curTime = 0;
+      while (curTime <= time) {
+          window.setTimeout(SVS_B, curTime, eAmt, where);
+          curTime += time / 100;
+      }
+  }
+  
+  function SVS_B(eAmt, where) {
+      if(where == "center" || where == "")
+          window.scrollBy(0, eAmt / 2);
+      if (where == "top")
+          window.scrollBy(0, eAmt);
+  }
+  
+
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/google-map-init.js"></script>
@@ -120,7 +138,7 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-6">
           <h2>WE BELIEVE IN GREAT IDEAS</h2>
-          <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fue dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <a href="work.html" class="btn btn-view-works">View Works</a>
